@@ -18,7 +18,7 @@ public class UserServiceTest
             DateTime.Parse("2000-01-01"),
             1
             );
-
+    
         // Assert
         Assert.False(result);
     }
@@ -36,7 +36,7 @@ public class UserServiceTest
             DateTime.Parse("2000-01-01"),
             100
         );
-
+    
         // Assert
         Assert.Throws<ArgumentException>(action);
     }
